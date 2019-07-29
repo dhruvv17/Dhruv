@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                padding: 0 20px 0 20px;
+            }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white;
+  font-size: 4mm;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+li {
+  float: left;
+   
+}
+
+li a {
+  display: inline-block;
+  color: rgb(131, 120, 120);
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: white;
+  color: rgb(93, 105, 218);
+}
+p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+   color: gray;
+
+}
+h1{
+    font-weight: lighter;
+    font-size: xx-large;
+    color: blue;
+}
+#innerimage1{
+    height:250px;
+    width:47%;
+
+}
+#innerimage2{
+    height:250px;
+    width:47%;
+    }
+        </style>
+    </head>
+    <body>
+    <div>
+        <center><img src="C:\Users\admin\Desktop\dv c++\logo.jpg"></center>
+    </div>
+    <div>   <center>
+            <ul id="top">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">About</a></li>
+                    <li><a href="#Infrastructure">Infrastructure</a></li>
+                    <li><a href="#Products">Products</a></li>
+                    <li><a href="#Quality">Quality</a></li>
+                    <li><a href="#Contacts">Contacts</a></li>
+                  </ul>
+                </center>
+    </div>
+    <div>
+        <img src="C:\Users\admin\Desktop\dv c++\pictures\Samsara-Newsletter-final.jpg" height=300vh width=100%>
+    </div>
+    <div id="Infrastructure">
+        <div>
+                <h1 >INFRASTRUCTURE</h1>
+               
+                <p>Samsaro Exports has an excellent garment production unit which is well designed with ample workspace, adequate natural lighting and extensive ventilations. Samsaro Exports in-house garment production facility is well equipped with latest state of the art machinery in fabric cutting, fusing, sewing, finishing & packing, resulting in better quality & higher efficiency in productivity. Every style is time & method engineered to improve productivity & achieve delivery deadlines.
+                </p>
+        </div>
+        <div>
+        <h1>KNITTING</h1>
+        <p>The Samsaro Exports has Own Knitting machines, which is Mayor & Cie, Germany. It can produce around 2000 KGS of fabric per day. We can do all types of knitted fabrics as per our customer specification and style, which includes Single Jersey, Interlock, French Terry and all types of Ribs, Jackquard designs,Loop Knit, Fleece, Blended, Auto stripes.</p>
+        
+        <img src="C:\Users\admin\Desktop\dv c++\pictures\5b.jpg" id="innerimage1"> 
+        <img src="C:\Users\admin\Desktop\dv c++\pictures\5b.jpg" id="innerimage2"> 
+    </div>
+    </div>
+    </body>
+</html>
